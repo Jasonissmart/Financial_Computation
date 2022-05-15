@@ -3,7 +3,7 @@ from scipy.stats import norm
 
 def closed_form_sol(S0, r, q, sigma, T, K1, K2, K3, K4)-> float: 
     '''
-    Given 9 parameters, calculate and return the cloesed form option value
+    Given 9 parameters, calculate and return the closed form option value
         Input:
             S0: stock price in time 0
             r: annual risk free rate
